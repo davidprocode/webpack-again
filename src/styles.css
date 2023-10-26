@@ -1,0 +1,15 @@
+body {
+  background: blue;
+}
+
+button {
+  border: 0;
+  color: white;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
