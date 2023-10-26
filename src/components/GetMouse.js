@@ -3,6 +3,7 @@ function GetMouse() {
     const btn = document.createElement('button');
     const h1 = document.createElement('h1');
 
+    btn.className = 'btn'
     btn.innerHTML = 'Click me!'
     btn.onclick = (e)=> h1.innerHTML = `X: ${e.offsetX} Y: ${e.offsetY}`
 

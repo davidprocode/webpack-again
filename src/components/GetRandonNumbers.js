@@ -2,14 +2,17 @@ import _ from 'lodash'
 
 function GetRandonNumbers() {
     const element = document.createElement('div');
-    const h1 = document.createElement('h1');
+    const p = document.createElement('p');
 
     const getRandomInteger = ()=> Math.round(Math.random() * 100)
     const res = _.times(5, getRandomInteger)
 
-    h1.innerHTML = res
+    p.innerHTML = res
+    p.className = 'text-sm font-medium text-gray-900'
 
-    element.appendChild(h1)
+    element.classList = 'divide-y divide-gray-200'
+
+    element.appendChild(p)
 
     return element
   }
